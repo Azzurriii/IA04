@@ -1,6 +1,20 @@
-# React Authentication with JWT (Access + Refresh Tokens)
+# IA04: React Authentication
 
-A full-stack authentication system implementing secure JWT-based authentication with access and refresh tokens. Built with React, NestJS, Axios, React Query, and React Hook Form.
+## 📝 Assignment Requirements Checklist
+
+- ✅ Access token and refresh token implementation
+- ✅ Axios instance with token interceptors
+- ✅ React Query for mutations and queries
+- ✅ React Hook Form with validation
+- ✅ Protected routes with authentication guards
+- ✅ Logout with token cleanup
+- ✅ Token stored in memory (access) and localStorage (refresh)
+- ✅ Automatic token refresh on expiration
+- ✅ Error handling with user feedback
+- ✅ TypeScript throughout
+- ✅ Clean, modular code structure
+- ✅ Comprehensive README
+- ✅ Public host: https://ia-04-9dqk.vercel.app
 
 ## 🚀 Features
 
@@ -340,22 +354,6 @@ Key file: `frontend/src/pages/Login.tsx`
 - Verify token expiration times
 - Clear localStorage and try again
 
-## 📝 Assignment Requirements Checklist
-
-- ✅ Access token and refresh token implementation
-- ✅ Axios instance with token interceptors
-- ✅ React Query for mutations and queries
-- ✅ React Hook Form with validation
-- ✅ Protected routes with authentication guards
-- ✅ Logout with token cleanup
-- ✅ Token stored in memory (access) and localStorage (refresh)
-- ✅ Automatic token refresh on expiration
-- ✅ Error handling with user feedback
-- ✅ TypeScript throughout
-- ✅ Clean, modular code structure
-- ✅ Comprehensive README
-- ✅ Ready for deployment
-
 ## 🎓 Learning Outcomes
 
 This project demonstrates:
@@ -367,11 +365,3 @@ This project demonstrates:
 - Protected route implementation
 - TypeScript best practices
 - Full-stack development
-
-## 👨‍💻 Author
-
-Created as part of the IA04 university assignment.
-
-## 📄 License
-
-This project is for educational purposes.
